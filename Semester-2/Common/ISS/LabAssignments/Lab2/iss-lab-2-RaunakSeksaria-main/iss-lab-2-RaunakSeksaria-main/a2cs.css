@@ -1,0 +1,28 @@
+body{
+    background-color: bisque;
+}
+
+#clock{
+    align-content: center;
+    text-align: center;
+    padding-top: 21%;
+    font-size: 100pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#buttons{
+    width: 150pt;
+    height: 45pt;
+    background-color: chocolate;
+    /* align-content: center; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border-color: beige;
+    border-radius: 15pt;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+#options{
+    text-align: center;
+}

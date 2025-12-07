@@ -1,0 +1,50 @@
+PSF EXT
+
+       3 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS topology ethane_autopsf-temp.top 
+ REMARKS segment XO1 { first none; last none; auto angles dihedrals }
+
+       8 !NATOM
+         1 XO1      1        ETHA     H11      HGA3     0.090000        1.0080           0
+         2 XO1      1        ETHA     H12      HGA3     0.090000        1.0080           0
+         3 XO1      1        ETHA     H13      HGA3     0.090000        1.0080           0
+         4 XO1      1        ETHA     C1       CG331   -0.270000       12.0110           0
+         5 XO1      1        ETHA     H21      HGA3     0.090000        1.0080           0
+         6 XO1      1        ETHA     H22      HGA3     0.090000        1.0080           0
+         7 XO1      1        ETHA     H23      HGA3     0.090000        1.0080           0
+         8 XO1      1        ETHA     C2       CG331   -0.270000       12.0110           0
+
+       7 !NBOND: bonds
+         4         1         4         2         4         3         4         8
+         8         5         8         6         8         7
+
+      12 !NTHETA: angles
+         1         4         8         1         4         3         1         4         2
+         2         4         8         2         4         3         3         4         8
+         4         8         7         4         8         6         4         8         5
+         5         8         7         5         8         6         6         8         7
+
+       9 !NPHI: dihedrals
+         1         4         8         5         1         4         8         6
+         1         4         8         7         2         4         8         5
+         2         4         8         6         2         4         8         7
+         3         4         8         5         3         4         8         6
+         3         4         8         7
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+         0         0         0         0         0         0         0         0
+
+       1       0 !NGRP
+         0         0         0
+

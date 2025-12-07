@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Assignment 1 </title>
+
+    <style>
+        .tablealt {
+            width: 100%;
+
+            th,
+            td {
+                text-align: center;
+                padding: 13px;
+            }
+
+            tr:nth-child(even) {
+                background-color: rgb(239, 247, 137);
+            }
+        }
+
+        .tab2 {
+            /* border-collapse: collapse; */
+            width: 60%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: x-large;
+
+            margin: auto;
+
+            th,
+            td {
+                text-align: center;
+                border: 7px solid #58282860;
+                padding: 8px;
+                text-align: left;
+            }
+
+            th {
+                background-color: rgb(160, 121, 95);
+            }
+
+            /* Custom borders */
+            th.top-left,
+            th.top-right,
+            th.bottom-left,
+            th.bottom-right {
+                border: 3px solid rgb(7, 7, 0);
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: antiquewhite;">
+
+    <h2 style="text-align: center;padding: 15px;">Heading 2</h2>
+    <p align="right">
+        HTML5, a stable web standard, introduced semantic elements for improved page structure. Notable features include native support for audio and video elements, canvas for dynamic graphics, SVG for scalable vector graphics, web storage mechanisms, offline application support, Geolocation API, and form improvements. Web Workers enable background script execution, and drag-and-drop operations are supported. The standard enhances responsiveness with the introduction of new input types and responsive image handling. Keep in mind that the web development landscape evolves, and staying updated with the latest documentation is advisable.
+    </p>
+    <p style="font-family: 'Comic Sans MS', Comic Sans, monospace; font-size: 20px;">
+        Web fonts allow Web designers to use fonts that are not installed on the user's computer.
+        When you have found/bought the font you wish to use, just include the font file on your web server, and it will be automatically downloaded to the user when needed.
+    </p>
+
+    <ul style="font-size: larger; list-style: square; margin: 15px;background-color: darkgray;">
+        <li>
+            Bootstrap
+        </li>
+        <li>
+            Tailwind CSS
+        </li>
+        <li>
+            Foundation
+        </li>
+    </ul>
+
+    <img src="data:image/jpeg;base64,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"
+        alt="Has not been rendered" style="width: 400px;float: left;">
+        <p style="text-align: justify;">
+            The image that has been attached hereby is of one of the most infamous browsers on the net, infamous for being an hub for criminal activity, and one of the forerunners of the dark web. Despite all this, it is extremeley popular because of the browser being extremely secure in terms of tracking and masking IP addresses.
+        </p>
+    <br>
+    <a
+        href="https://www.google.com/search?q=logo+for+torr+browser&tbm=isch&ved=2ahUKEwihsOSr-9aDAxV8_zgGHZJ7BdsQ2-cCegQIABAA&oq=logo+for+torr+browser&gs_lcp=CgNpbWcQA1AAWN8IYOUKaABwAHgAgAEAiAEAkgEAmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=brmgZaHBKfz-4-EPkveV2A0&bih=1041&biw=1920#imgrc=ptMaxS-NxZdXDM">The
+        source file from which the given image was taken is attached hereby</a>
+
+    <table class="tablealt">
+        <tr>
+            <th> Head1 </th>
+            <th> Head 2 </th>
+            <th> Head 3 </th>
+        </tr>
+        <tr>
+            <td> Data element 1</td>
+            <td> Data Element 2</td>
+            <td> Data Element 3</td>
+        </tr>
+        <tr>
+            <td> Data element 4</td>
+            <td> Data Element 5</td>
+            <td> Data Element 6</td>
+        </tr>
+        <tr>
+            <td> Data element 7</td>
+            <td> Data Element 8</td>
+            <td> Data Element 9</td>
+        </tr>
+
+        <tr>
+            <td> Data element 10</td>
+            <td> Data Element 11</td>
+            <td> Data Element 12</td>
+        </tr>
+
+
+    </table>
+
+    <p style="background-color: green;color: white;">My name is Raunak Seksaria. Demo text...Lorem ipsum is placeholder
+        text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+    </p>
+
+    <hr style="width: 70%;">
+
+    <pre>
+        <code>
+            #include <bits/stdc++.h>
+            using namespace std;
+            int main(){
+                int t;
+                cin >> t;
+                while(t-->0){
+                    int n, k;
+                    cin >> n >> k;
+                    int ar[n];
+                    int x = n-k+1;
+                    ar[0] = x-1;
+                    for(int i = 0;i < k;i++){
+                        ar[i+1] = x+i;
+                    }
+                    int ind = x-2;
+                    for(int i = k;i< n-1;i++){
+                        ar[i+1] = ind--;
+                    }  
+                    for(int i = 0;i< n;i++){
+                        cout << ar[i] << " ";
+                    }
+                    cout << endl;
+                }
+                return 0;
+            }
+                        
+        </code>
+    </pre>
+
+    <p>
+        <em>Web development is the work involved in developing a website for the Internet or an intranet. Web
+            development can range from developing a simple single static page of plain text to complex web applications,
+            electronic businesses, and social network services.</em>
+    </p>
+
+    <ol>
+        <li>Butter</li>
+        <li> Milk</li>
+        <li> Cream</li>
+    </ol>
+
+    <p style="text-align: center;">
+        <b>Demo text follows:
+            Now is the winter of our discontent
+            Made glorious summer by this sun of York;
+            And all the clouds that lour'd upon our house
+            In the deep bosom of the ocean buried.
+            Now are our brows bound with victorious wreaths;
+            Our bruised arms hung up for monuments;
+            Our stern alarums changed to merry meetings,
+            Our dreadful marches to delightful measures.
+            Grim-visaged war hath smooth'd his wrinkled front;
+            And now, instead of mounting barded steeds
+            To fright the souls of fearful adversaries,
+            He capers nimbly in a lady's chamber
+            To the lascivious pleasing of a lute.
+        </b>
+    </p>
+
+    <table class="tab2">
+        <thead>
+            <tr>
+                <th class="top-left" colspan="2 ">Header 1</th>
+                <th class="top-right" colspan="2">Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+                <td>Row 1, Cell 4</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+                <td>Row 2, Cell 4</td>
+            </tr>
+        </tbody>
+    </table>
+</body>

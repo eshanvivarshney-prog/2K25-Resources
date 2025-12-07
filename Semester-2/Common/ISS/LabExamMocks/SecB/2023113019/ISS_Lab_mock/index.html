@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant The Plaza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            The Plaza
+        </h1>    
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div id = "home">
+        <h1>Welcome to the Plaza! </h1>
+        <p>A brief Intro:<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio excepturi error itaque laudantium sed, quaerat amet, ab illum asperiores, unde ullam corporis vel voluptatum sint aperiam molestiae odit placeat voluptatem officiis similique voluptates ratione adipisci sequi id? Dicta sint eum voluptatum dolorem esse error dolorum, distinctio id, quod repellendus minima!</p>
+        <button id = "callButton" onclick="callFn()">
+            Call-to-Action
+        </button>
+    </div>
+    <div class="flexbox" id = "menu">
+        <h1>Menu</h1>
+        <div class="flexItems">
+           <h1>Spaghetti</h1> 
+           <h4>Price: Rs 500</h4>
+           <h2>Description</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque reiciendis vel porro, necessitatibus amet, consectetur nobis ab delectus accusamus error nulla deleniti doloremque ullam molestiae recusandae, voluptates excepturi repellendus! Consequatur est magni nesciunt reprehenderit, corrupti optio possimus molestias voluptatibus, laudantium accusamus inventore. Consequatur!</p>
+           <img src="img/im1.png" alt="First Image">
+
+        </div>
+        <div class="flexItems">
+            <h1>Pizza</h1> 
+           <h4>Price: Rs 600</h4>
+           <h2>Description</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque reiciendis vel porro, necessitatibus amet, consectetur nobis ab delectus accusamus error nulla deleniti doloremque ullam molestiae recusandae, voluptates excepturi repellendus! Consequatur est magni nesciunt reprehenderit, corrupti optio possimus molestias voluptatibus, laudantium accusamus inventore. Consequatur!</p>
+           <img src="img/im2.png" alt="Second Image">
+        </div>
+        <div class="flexItems">
+            <h1>Pasta</h1> 
+           <h4>Price: Rs 300</h4>
+           <h2>Description</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque reiciendis vel porro, necessitatibus amet, consectetur nobis ab delectus accusamus error nulla deleniti doloremque ullam molestiae recusandae, voluptates excepturi repellendus! Consequatur est magni nesciunt reprehenderit, corrupti optio possimus molestias voluptatibus, laudantium accusamus inventore. Consequatur!</p>
+           <img src="img/im3.png" alt="Third Image">
+
+        </div>
+    </div>
+    <div class="flexbox" id = "about">
+        <h1>About Us</h1>
+        <div class="flexItems">
+            <h3>Details</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia eum, eius laudantium iusto unde maiores quod laboriosam quasi reiciendis inventore praesentium temporibus itaque hic totam, rerum, ullam aperiam dicta. Sint velit, recusandae nemo esse fugit placeat. Expedita excepturi alias eaque officiis? Quaerat nesciunt dolore amet!</p>
+        </div>
+        <div class="flexItems">
+            <h3>Our History and Heritage</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia eum, eius laudantium iusto unde maiores quod laboriosam quasi reiciendis inventore praesentium temporibus itaque hic totam, rerum, ullam aperiam dicta. Sint velit, recusandae nemo esse fugit placeat. Expedita excepturi alias eaque officiis? Quaerat nesciunt dolore amet!</p>
+        </div>
+        <div class="flexItems">
+            <h3>Our Mission</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia eum, eius laudantium iusto unde maiores quod laboriosam quasi reiciendis inventore praesentium temporibus itaque hic totam, rerum, ullam aperiam dicta. Sint velit, recusandae nemo esse fugit placeat. Expedita excepturi alias eaque officiis? Quaerat nesciunt dolore amet!</p>
+        </div>
+        
+    </div>
+    <div class="flexbox" id = "contact">
+        <h1>Contact Us!</h1>
+        <form>
+            <label for="name" class="flexItems" id = "nameId">Name:
+                <input type="text" id = "name" required>
+            </label>
+            <label for="Email" class="flexItems">Email:
+                <input type="text" id = "Email" required>
+            </label>
+            <label for="message" class="flexItems">Message:
+                <input type="text" id = "message" required>
+            </label>
+            <button onclick = "sub()">Submit</button>
+        </form>
+
+    </div>
+    <footer>
+        Copyright @Raunak Seksaria
+    </footer>
+</body>
+</html>

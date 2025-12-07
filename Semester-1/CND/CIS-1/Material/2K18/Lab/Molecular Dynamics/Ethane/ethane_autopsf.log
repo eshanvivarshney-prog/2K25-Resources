@@ -1,0 +1,15 @@
+#Original PDB file: 
+#PDBSTART
+CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
+ATOM      1  H11 ETHAX   1       0.000   0.946   1.076  0.00  0.00      XO1   
+ATOM      2  H12 ETHAX   1       0.819  -0.473   1.076  0.00  0.00      XO1   
+ATOM      3  H13 ETHAX   1      -0.819  -0.473   1.076  0.00  0.00      XO1   
+ATOM      4  C1  ETHAX   1       0.000   0.000   0.750  0.00  0.00      XO1   
+ATOM      5  H21 ETHAX   1       0.000  -0.946  -1.076  0.00  0.00      XO1   
+ATOM      6  H22 ETHAX   1       0.819   0.473  -1.076  0.00  0.00      XO1   
+ATOM      7  H23 ETHAX   1      -0.819   0.473  -1.076  0.00  0.00      XO1   
+ATOM      8  C2  ETHAX   1       0.000   0.000  -0.750  0.00  0.00      XO1   
+END
+
+#PDBEND
+#Creating chain XO1: 0 residues from indices 1 to 7 in original file. Patches: Nter none, Cter none
